@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    /* margin-right: 3%; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 3%;
+}
+@media (max-width:800px) {
+    .wrapper{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+}
